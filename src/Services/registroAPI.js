@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const dados_api = axios.create({ baseURL: "http://localhost:8000" })
+const dados_api = axios.create({ baseURL: "https://back-end-form-eight.vercel.app" })
 
 async function busca_dados_api_registro() {
 
